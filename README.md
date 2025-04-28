@@ -35,12 +35,17 @@ A simple, modern Expense Tracker web application built using React, Tailwind CSS
 ## 🛠 Setup Instructions (Local)
 
 ### 1. Clone the Repository
+
 git clone https://github.com/Debojyoti2022/Expense-tracker.git
+
 cd Expense-tracker
 
 2. Install Frontend Dependencies
+
 cd client
+
 npm install
+
 npm run dev
 
 3. Install Backend Dependencies
