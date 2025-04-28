@@ -49,19 +49,25 @@ npm install
 npm run dev
 
 3. Install Backend Dependencies
+
 cd server
+
 npm install
+
 npm run start
+
 Backend will run at http://localhost:5000
 
 🙌 Acknowledgements
-React
-TailwindCSS
-MongoDB Atlas
-Recharts
+React,
+TailwindCSS,
+MongoDB Atlas,
+Recharts,
 GitHub Pages
 
 📬 Contact
+
 Made by Debojyoti Halder✨
+
 📧 debojyotihalder18@gmail.com
 
