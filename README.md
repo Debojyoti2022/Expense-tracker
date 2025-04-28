@@ -58,7 +58,7 @@ npm run start
 
 Backend will run at http://localhost:5000
 
-🙌 Acknowledgements
+🙌 Acknowledgements: 
 React,
 TailwindCSS,
 MongoDB Atlas,
