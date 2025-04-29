@@ -1,12 +1,77 @@
-# React + Vite
+# 💸 Expense Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, modern Expense Tracker web application built using React, Tailwind CSS, Node.js, Express, and MongoDB Atlas.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Live Demo
 
-## Expanding the ESLint configuration
+🔗 [View Live Project](https://debojyoti2022.github.io/Expense-tracker/)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠 Tech Stack
+
+- ⚛️ React (Vite + ReactJS)
+- 🎨 TailwindCSS
+- 📦 Node.js + Express (Backend)
+- 🛢️ MongoDB Atlas (Database)
+- 🌐 GitHub Pages (Frontend Hosting)
+
+---
+
+## ✨ Features
+
+- Add new expenses 💸
+- Edit existing expenses ✏️
+- Delete expenses 🗑️
+- Live dashboard with:
+  - Pie Chart 📊 (Category-wise breakdown)
+  - Bar Chart 📈 (Monthly expenses)
+- Responsive design (Mobile, Tablet, Desktop)
+- Smooth animations and lively transitions
+- Deployed on GitHub Pages!
+
+---
+
+## 🛠 Setup Instructions (Local)
+
+### 1. Clone the Repository
+
+
+git clone https://github.com/Debojyoti2022/Expense-tracker.git
+cd Expense-tracker
+
+
+2. Install Frontend Dependencies
+
+cd client
+
+npm install
+
+npm run dev
+
+3. Install Backend Dependencies
+
+cd server
+
+npm install
+
+npm run start
+
+Backend will run at http://localhost:5000
+
+🙌 Acknowledgements: 
+React,
+TailwindCSS,
+MongoDB Atlas,
+Recharts,
+GitHub Pages
+
+📬 Contact
+
+Made by Debojyoti Halder✨
+
+📧 debojyotihalder18@gmail.com
+
+

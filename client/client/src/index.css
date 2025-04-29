@@ -1,0 +1,14 @@
+/* index.css */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: You can keep some global resets if needed */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: transparent; /* ✅ Let Tailwind control background */
+  color: inherit; /* ✅ Let Tailwind control text color */
+}
