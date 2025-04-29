@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { getExpenses, deleteExpense } from "../services/expenseService";
 
-const ExpenseList = ({ onEdit, refresh }) => {
+const ExpenseList = ({ onEdit, refresh, setRefresh }) => {
   const [expenses, setExpenses] = useState([]);
 
   const fetchExpenses = async () => {
@@ -15,7 +15,7 @@ const ExpenseList = ({ onEdit, refresh }) => {
 
   const handleDelete = async (id) => {
     await deleteExpense(id);
-    fetchExpenses();
+    setRefresh(prev => !prev);
   };
 
   return (

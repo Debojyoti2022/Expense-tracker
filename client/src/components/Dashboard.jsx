@@ -70,7 +70,7 @@ const Dashboard = ({ refresh }) => {
             dataKey="value"
             fill="#8884d8"
             radius={[10, 10, 0, 0]}
-            isAnimationActive={true}  // ✅ Always animate
+            isAnimationActive={true}  //  Always animate
             animationDuration={1500}
             animationEasing="ease-out"
           />
